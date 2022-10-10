@@ -10,9 +10,10 @@ class Banking{
         return balance;
     }
 
-    public double deposit(){
-        double balance;
-
+    public double deposit(double amount){
+        System.out.println("Enter the amount deposit");
+         amount = sc.next();
+        balance = balance + amount;
         return balance;
     }
 
